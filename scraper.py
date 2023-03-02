@@ -6,7 +6,7 @@ import os
 from datetime import timedelta
 
 
-class YouTubeChannel:
+class Scraper:
     CACHE_DIR = "cache"
 
     def __init__(self, channel_id, api_key):
